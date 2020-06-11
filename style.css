@@ -3,14 +3,16 @@
 *::after{
     box-sizing: border-box;
 }
-header {
-    padding: 2px;
+.jumbotron {
     text-align: center;
+    background-color: transparent;
     color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
 }
 body {
     height: 100vh;
-    background-image: url('assets/image/Weather_Dashboard.jpg');
+    /*background-image: url('assets/image/Weather_Dashboard.jpg');*/
     background-size: cover;
     background-position: center;
     justify-content: center;
