@@ -3,6 +3,16 @@
 *::after{
     box-sizing: border-box;
 }
+body {
+    height: 100vh;
+    /*background-image: url('assets/image/inner_red_cloud.jpeg');*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+}
 .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -10,13 +20,34 @@
     border-radius: 0;
     border-bottom: 10px solid black;
 }
-body {
-    height: 100vh;
-    /*background-image: url('assets/image/Weather_Dashboard.jpg');*/
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-repeat: no-repeat;
+.lead {
+    color: blueviolet;
+}
+.container {
+    color: crimson;
+}
+#mDiv {
+    color: darkgreen;
+}
+#city {
+    color: dodgerblue;
+}
+p {
+    color: greenyellow;
+}
+#forcast {
+    color: darkorange;
+}
+.forcast_card {
+    color: deeppink;
+}
+#wrapper {
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+}.forcast_card {
+    color: white;
+    background-color: #0076ff;
+    border-radius: 5px;
+    margin: 10px;
 }

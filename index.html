@@ -19,6 +19,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Weather Dashboard</title>
   </head>
@@ -31,22 +35,22 @@
      <p id="currentDay" class="lead"></p>
    </header>
 
-   <div class="row">
-     <form>
-       <h3>Search for a city</h3>
-        <div class="city-form">
-         <input type="text" class="search-field city" placeholder="Enter city name"><br>
-         <button class="search-btn" type="button">Search</button>
-         <button class="history-btn" type="button">Clear History</button>
-        </div>
-     </form>
+   <!--div class="container"-->
+     <div class="row">
+       <!--h3>Search for a city</h3-->
+       <div class="city-form" class="co-lg-4">
+         <h3>Search for a city</h3>
+         <input type="text" id="search-field-city" placeholder="Enter city name">
+         <button id="search-btn" type="button"><i class="fa fa-search"></i></button><br>
+         <button id="history-btn" type="button">Clear History</button>
+       </div>
+     </div>
    </div>
    
-   <div class="container co-lg-8 weather">
-     
-      <div id="Mdiv">
+   <div class="container co-lg-8">
+      <div id="mDiv">
         <div id="cityDisplay">
-          <h3 id="city"></h3><img id="weatherIcon" src="" alt="" width="10%" height="10%">
+          <h3 id="city">This is space for city</h3><img id="weatherIcon" src="" alt="" width="10%" height="10%">
           <p>Temperature: <span id="temperature"></span></p>
           <p>Humidity: <span id="humidity"></span></p>
           <p>Wind Speed: <span id="wind_speed"></span></p>
@@ -60,31 +64,31 @@
 
           <div class="row">
             <div class="forcast_card" id="CardOne">
-              <h4 id="CardOneDate"></h4>
+              <h4 id="CardOneDate">date here</h4>
               <img id="CardOneImg" src="" alt="" width="50%" height="50%">
               <p>Temperature: <span id="CardOneTemperature"></span></p>
               <p>Humidity: <span id="CardOneHumidity"></span></p>
             </div>
             <div class="forcast_card" id="CardTwo">
-              <h4 id="CardTwoDate"></h4>
+              <h4 id="CardTwoDate">date here</h4>
               <img id="CardTwoImg" src="" alt="" width="50%" height="50%">
               <p>Temperature: <span id="CardTwoTemperature"></span></p>
               <p>Humidity: <span id="CardTwoHumidity"></span></p>
             </div>
             <div class="forcast_card" id="CardTree">
-              <h4 id="CardTreeDate"></h4>
+              <h4 id="CardTreeDate">date here</h4>
               <img id="CardTreeImg" src="" alt="" width="50%" height="50%">
               <p>Temperature: <span id="CardTreeTemperature"></span></p>
               <p>Humidity: <span id="CardTreeHumidity"></span></p>
             </div>
             <div class="forcast_card" id="CardFour">
-              <h4 id="CardFourDate"></h4>
+              <h4 id="CardFourDate">date here</h4>
               <img id="CardFourImg" src="" alt="" width="50%" height="50%">
               <p>Temperature: <span id="CardFourTemperature"></span></p>
               <p>Humidity: <span id="CardFourHumidity"></span></p>
             </div>
             <div class="forcast_card" id="CardFive">
-              <h4 id="CardFiveDate"></h4>
+              <h4 id="CardFiveDate">date here</h4>
               <img id="CardFiveImg" src="" alt="" width="50%" height="50%">
               <p>Temperature: <span id="CardFiveTemperature"></span></p>
               <p>Humidity: <span id="CardFiveHumidity"></span></p>
